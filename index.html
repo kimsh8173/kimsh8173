@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>나만의 중고마켓</title>
+  <link rel="stylesheet" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/easygpt/default.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <style>
+    /* 꾸미기 */
+  </style>
+</head>
+
+<body>
+  <div class="hero bg-dark text-center py-5"> <style>
+    /* 꾸미기 */
+    .hero {
+      margin-bottom: 20px;
+    }
+  </style>  
+  <style>
+    /* 꾸미기 */
+    .card {
+      transition: transform 0.3s; 
+    }
+  
+    .card:hover {
+      transform: scale(1.1);
+    }
+  </style>
+    <h1 class="text-white">나만의 르탄마켓</h1>
+    <h2 class="text-white">집에 있는 물건을 팝니다!</h2>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://www.lge.co.kr/kr/images/refrigerators/md08920430/gallery/medium02.jpg" class="card-img-top" alt="냉장고 이미지">
+          <div class="card-body">
+            <h5 class="card-title">냉장고</h5>
+            <h6 class="card-subtitle mb-2 text-muted">100만원</h6>
+            <p class="card-text">제가 이사가면서 냉장고가 옵션이어서 팝니다.</p>
+            <a href="https://spartacodingclub.kr" class="card-link" target="_blank">자세히 보기</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://www.costco.co.kr/medias/sys_master/images/hf0/h20/140086494167070.jpg" class="card-img-top" alt="자전거 이미지">
+          <div class="card-body">
+            <h5 class="card-title">자전거</h5>
+            <h6 class="card-subtitle mb-2 text-muted">10만원</h6>
+            <p class="card-text">딱 1번 사용했구요 자전거 연습한다고 썻습니다.</p>
+            <a href="https://spartacodingclub.kr" class="card-link" target="_blank">자세히 보기</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="data:image/jpeg;base64,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" class="card-img-top" alt="키보드 이미지">
+          <div class="card-body">
+            <h5 class="card-title">키보드</h5>
+            <h6 class="card-subtitle mb-2 text-muted">10만원</h6>
+            <p class="card-text">이거사용하고 롤 티어 올림 ㅅㄱ.</p>
+            <a href="https://spartacodingclub.kr" class="card-link" target="_blank">자세히 보기</a>
+          </div>
+        </div>
+      </div>
+    </div><div class="col-md-4">
+      <div class="card">
+        <img src="청소기.jpg">
+        <div class="card-body">
+          <h5 class="card-title">청소기</h5>
+          <h6 class="card-subtitle mb-2 text-muted">10만원</h6>
+          <p class="card-text">흡입력 최고 걍사.</p>
+          <a href="https://spartacodingclub.kr" class="card-link" target="_blank">자세히 보기</a>
+  </div>
+</body>
+</html>
